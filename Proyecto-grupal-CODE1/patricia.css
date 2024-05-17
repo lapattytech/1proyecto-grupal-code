@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: "Chakra Petch", sans-serif;
+    font-size: 20px;
+
+   
+}
+
+body{
+    background-color: #020932;
+}
+
+.container-videojuegos-casuales{
+	display: flex;
+	flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem;
+    height: 100vh;
+
+
+}
+
+.imagen__container-videojuegos-casuales{
+	width: 80vh;
+	height: 90vh;
+	overflow: hidden;
+	object-fit: contain;
+	background-color: #666;
+
+
+	background-image: url(images/jugador-alto-angulo-jugando-interiores.jpg);
+	background-size: cover;
+	background-position-x: -5rem;
+
+}
+
+.contenido__container-videojuegos-casuales{
+	text-align: center;	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.title__container-videojuegos-casuales{
+		padding: 5rem 0 0 0;
+		font-weight: 400;
+  		font-style: bold;
+    	font-size: 2rem;
+    	color: #FF009E;
+}
+
+.paragraph__container-videojuegos-casuales{
+	
+	width: 25rem;
+	text-align: center;
+	color: white;
+	font-size: 1.3rem;
+}
+
+.button__container-videojuegos-casuales{
+	padding: 0.5rem 2.5rem 0.5rem .5rem;
+	font-size: 1rem;
+	color: white;
+    text-decoration: none;
+
+    background-color: #FF009E;
+    border: none;
+    border-radius: .7rem;
+    text-align: left;
+}
+
+.button__container-videojuegos-casuales .arrow{
+	position: relative;
+	left: 1.5rem;
+}
+
+.icons i{
+	color: #FF009E;
+}
+
+.titulo__comentario-2{
+
+		font-weight: 500;
+  		font-style: bold;
+    	font-size: 1.2rem;
+}
+
+.container-comentarios{
+	height: 100vh;
+	
+}
